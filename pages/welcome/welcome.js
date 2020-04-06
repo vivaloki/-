@@ -1,3 +1,5 @@
+var app = getApp();
+
 Page({
   onTap: function (event) {
     // wx.navigateTo({

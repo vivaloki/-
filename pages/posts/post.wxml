@@ -1,4 +1,4 @@
-<import src="post-item/post-item-template.wxml" />
+ <import src="post-item/post-item-template.wxml" />
 <!--<import src="/pages/posts/post-item/post-item-template.wxml" />-->
 <view>
   <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">

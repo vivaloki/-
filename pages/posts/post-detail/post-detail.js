@@ -106,7 +106,7 @@ Page({
     // 收藏变成未收藏，未收藏变成收藏
     postCollected = !postCollected;
     postsCollected[this.data.currentPostId] = postCollected;
-    this.showToast(postsCollected, postCollected);
+    this.showModal(postsCollected, postCollected);
   },
 
   showModal: function (postsCollected, postCollected) {
